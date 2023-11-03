@@ -9,9 +9,6 @@
 // #
 
 
-let number = "#";
-while (number <="####") {
-    console.log(number);
-    number = number += "#";
-} 
+for (let line = "#"; line.length <= 4; line += "#")
+console.log(line);
 

@@ -10,7 +10,7 @@
 // FizzBuzz
 // ...
 
-
+// this program lists all numbers 1-100 and if the number is evenly divisible by 3, the word "Fizz" is shown instead of the number, and if the number is evenly divisible by 5, then "Buzz" gets added. And if its evenly divisible by both 3 and 5, "FizzBuzz" is shown.
 for (let x = 1; x <= 100; x++) {
     let i = "";
     if (x % 3 == 0)
