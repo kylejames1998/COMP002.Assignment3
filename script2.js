@@ -9,3 +9,13 @@
 // 14
 // FizzBuzz
 // ...
+
+
+for (let x = 1; x <= 100; x++) {
+    let i = "";
+    if (x % 3 == 0)
+    i += "Fizz";
+    if (x % 5 == 0)
+    i += "Buzz";
+    console.log(i || x);
+}
