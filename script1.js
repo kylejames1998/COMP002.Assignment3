@@ -12,3 +12,8 @@
 for (let line = "#"; line.length <= 4; line += "#")
 console.log(line);
 
+for (let line2 = "###"; line2.length >= 1; line2 = line2.slice(0, -1)) {
+    console.log(line2);
+}
+
+
